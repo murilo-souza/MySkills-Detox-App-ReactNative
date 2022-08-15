@@ -20,7 +20,17 @@ describe('Home screen', () => {
     await inputNewSkill.tap();
     await inputNewSkill.typeText('React Native')
     await buttonAdd.tap()
+
+    await inputNewSkill.tap();
+    await inputNewSkill.typeText('React Js')
+    await buttonAdd.tap()
+
+    await inputNewSkill.tap();
+    await inputNewSkill.typeText('Next Js')
+    await buttonAdd.tap()
+
     
+
     await flatListSkills.tap()
 
     expect(element(by.id('flat-list-skills'))).toBeVisible()
