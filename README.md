@@ -3,7 +3,7 @@
 <h2>Project</h2>
 <p>Application to learn automatic test in react native</p>
 
-<h2>Technologies</h2>
+<h2>Stack</h2>
 <ul>
   <li><a href="https://github.com/wix/Detox">Detox</a></li>
   <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
